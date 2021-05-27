@@ -1,11 +1,59 @@
+
+.nav {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#topnav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#login {
+  background: url("images/IMG_8808.jpeg")
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  border-radius: 50%;
+  background-position: -1px;
+  cursor: pointer;
+}
+.loginbutton {
+  padding: 5px;
+  line-height: 10x;
+}
+
 .link {
-    text-decoration: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
-.topnav {
-    color: black;
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-#input {
-  background-image: url(images/search icon/1x/outline_search_black_24dp.png);
-  background-position: 7px 7px;
-  background-repeat: no-repeat;
+
+#selection {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#parentfooter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.child1 {
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+.child2 {
+  justify-content: flex-end;
+  padding-right: 10px;
 }

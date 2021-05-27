@@ -5,49 +5,52 @@
         <link rel="stylesheet" href="css/style.css"
         <link rel="stylesheet" href="https://fonts.google.com"
     </head>
-    <body>
+    <body>   
         <!--Top Navigation-->
-        <div>
-            <nav>
-                <div>
-                    <a href="" >Gmail</a> &nbsp; 
-                    <a href="" >Images</a>
-                </div>
-            </nav>
+        <div id="topnav">
+            <a href="" class="nav">Gmail</a> &nbsp; 
+            <a href="" class="nav">Images</a>
+            <a href=""></a>
+            <div id="login"><a href="" class="loginbutton"></a></div>
         </div>
     
         <!-- Middle -->
-        <div>
+        <div id="mid">
             <img id="logo" src="./images/google logo.png" alt="Google Logo">
             <br>
             <div>
                 <input id="input" type="search">
                 <img src="images/search icon/1x/outline_search_black_24dp.png">
+                <br>
+                <button type="submit">Google Search</button>
+                <button type="submit">I'm Feeling Lucky</button>
             </div>
-            <p>
+            <div id="selection">
                 Google offered in: 
                 <a href="" class="link">Filipino</a> &nbsp; 
                 <a href="" class="link">Cebuano</a>
-            </p>
+            </div>
         </div>
-
+        
         <!--Footer-->
         <div id="botnav">
-            <a href="" class="">Philippines</a>
+            <div>
+                <a href="" class="nav">Philippines</a>
             </div>
             <hr>
-        
-        <div>
-            <a href="" class="">About</a>
-            <a href="" class="">Advertising</a>
-            <a href="" class="">Business</a>
-            <a href="" class="">How Search Works</a>
-        </div>
-        
-        <div>
-            <a href="" class="">Privacy</a>
-            <a href="" class="">Terms</a>
-            <a href="" class="">Settings</a>
-        </div>
+            <div id="parentfooter">
+                <div class="child1">
+                    <a href="" class="nav">About</a>
+                    <a href="" class="nav">Advertising</a>
+                    <a href="" class="nav">Business</a>
+                    <a href="" class="nav">How Search Works</a>
+                </div>
+                <div class="child2">
+                    <a href="" class="nav">Privacy</a>
+                    <a href="" class="nav">Terms</a>
+                    <a href="" class="nav">Settings</a>
+                </div>
+            </div>
+        </div> 
     </body>
 </html>
