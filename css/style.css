@@ -11,7 +11,10 @@ header {
   flex-direction: row;
   justify-content: flex-end;
 }
-.nav {
+#navheader a {
+  text-decoration: none;
+}
+.topbar {
   text-decoration: none;
   color: black;
   font-size: 14px;
@@ -21,6 +24,19 @@ p {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
+}
+button {
+  border-color: rgb(218, 218, 215);
+  background-color: rgb(248, 249, 250);
+  padding: 0px 16px 0px 16px;
+  margin: 11px 4px 11px 4px;
+  height: 40px;
+  width: 130px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border-image-repeat: stretch;
+  display: inline-block;
+  cursor: pointer;
 }
 .link {
   text-decoration: none;
@@ -35,20 +51,30 @@ footer {
 }
 #country {
   text-decoration: none;
-  background-color: #f2f2f2;
   color: rgba(0,0,0,.54);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   pointer-events: none;
   cursor: default;
 }
-.footer {
-  text-decoration: none;
-  color: rgba(0,0,0,.54);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  display: flex-in;
+nav {
+  display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
+#navfooter a {
+  text-decoration: none;
+  color: rgba(0,0,0,.54);
+}
+#navbar1 {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+#navbar2 {
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
