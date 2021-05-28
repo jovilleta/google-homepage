@@ -49,8 +49,13 @@ p {
   border-style: solid;
   border-width: thin;
   border-color: rgb(218, 220, 223);
+  font-size: 15px;
   display: block;
   margin: auto;
+}
+input[type=search]:focus {
+  outline: none;
+  box-shadow: 0 0 3px 2px #e6e4e4;
 }
 #search{
   display: flex;
