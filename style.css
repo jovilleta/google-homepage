@@ -38,10 +38,8 @@ p {
   padding-top: 165px;
   padding-bottom: 10px;
 }
-.searchbar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#searchbar {
+  margin-bottom: 15px;
 }
 #search-box {
   height: 45px;
@@ -51,9 +49,8 @@ p {
   border-style: solid;
   border-width: thin;
   border-color: rgb(218, 220, 223);
-}
-form.searchbar button {
- 
+  display: block;
+  margin: auto;
 }
 #search{
   display: flex;
