@@ -148,22 +148,14 @@ footer {
   padding: 0px 8px 0px 8px;
 }
 @media screen and (max-width: 550px) {
-  #logo {
-    padding-top: 130px;
+body {
+  width: 550px;
   }
-  #searchbox {
-    margin: auto;
-    width: 450px;
-    margin-left: 25px;
+footer {
+  height: 120px;
   }
-  #search-icon {
-    margin-left: 22px;
-  }
-  footer {
-    height: 125px;
-  }
-  #navfooter {
-    flex-direction: column;
-    height: 45px;
+#navfooter {
+  flex-direction: column;
+  height: 40px;
   }
 }
