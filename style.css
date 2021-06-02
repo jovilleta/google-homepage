@@ -26,7 +26,6 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 100px;
   padding-top: 160px;
 }
 #searchbox-container {
@@ -148,14 +147,24 @@ footer {
   padding: 0px 8px 0px 8px;
 }
 @media screen and (max-width: 550px) {
-body {
-  width: 550px;
+  #logo {
+    padding-top: 120px;
   }
-footer {
-  height: 120px;
+  #searchbox-container {
+    width: 485px;
   }
-#navfooter {
-  flex-direction: column;
-  height: 40px;
+  #searchbox {
+    width: 400px;
+    margin-left: 50px;
+  }
+  #search-icon {
+    margin-left: 48px;
+  }
+  footer {
+    height: 130px;
+  }
+  #navfooter {
+    flex-direction: column;
+    height: 40px;
   }
 }
