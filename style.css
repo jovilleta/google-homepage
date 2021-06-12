@@ -150,11 +150,11 @@ footer {
     width: 485px;
   }
   #searchbox {
-    width: 450px;
-    margin: auto;
+    width: 400px;
+    margin-left: 50px;
   }
   #search-icon {
-    margin-left: 28px;
+    margin-left: 60px;
   }
   footer {
     height: 130px;
