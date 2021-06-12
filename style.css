@@ -148,15 +148,8 @@ footer {
   #logo {
     padding-top: 120px;
   }
-  #searchbox-container {
-    width: 485px;
-  }
-  #searchbox {
+  #searchbox-container, #searchbox {
     width: 400px;
-    margin-left: 50px;
-  }
-  #search-icon {
-    margin-left: 60px;
   }
   footer {
     height: 130px;
@@ -170,8 +163,5 @@ footer {
   #searchbox-container, #searchbox{
     width: 300px;
     margin: auto;
-  }
-  #search-icon {
-    margin-left: 5px;
   }
 }
