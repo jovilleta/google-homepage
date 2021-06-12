@@ -159,7 +159,10 @@ footer {
 }
 @media screen and (max-width: 480px) {
   #searchbox-container, #searchbox {
-    width: 300px;
+    width: 315px;
     margin: auto;
+  }
+  button {
+    font-size: 13px;
   }
 }
