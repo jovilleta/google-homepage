@@ -164,3 +164,15 @@ footer {
     height: 40px;
   }
 }
+@media screen and (max-width: 480px) {
+  #searchbox-container {
+    width: 380px;
+  }
+  #searchbox {
+    width: 380px;
+    margin-left: 50px;
+  }
+  #search-icon {
+    margin-left: 60px;
+  } 
+}
