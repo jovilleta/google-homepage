@@ -37,7 +37,6 @@ a:hover {
   margin: auto;
   height: 45px;
   width: 535px;
-  border: 1px solid;
 }
 #searchbox {
   display: flex;
@@ -62,7 +61,6 @@ input[type=search]:focus {
   margin-top: -35px;
   height: 27px;
   width: 27px;
-  border: 1px solid;
 }
 #search {
   display: flex;
@@ -160,7 +158,7 @@ footer {
   }
 }
 @media screen and (max-width: 480px) {
-  #searchbox-container, #searchbox{
+  #searchbox-container, #searchbox {
     width: 300px;
     margin: auto;
   }
