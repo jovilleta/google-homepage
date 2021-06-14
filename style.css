@@ -26,6 +26,36 @@ li a {
 a:hover {
   text-decoration: underline!important;
 }
+#menu {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  padding: 8px;
+  margin: 1px 10px 0 10px;
+  border-radius: 50%;
+  background-image: url(images/google\ menu.png);
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#menu:hover {
+ background-color: rgba(154, 161, 167, 0.3);
+ cursor: pointer;
+}
+#login {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin: 5px 10px 0 0;
+  border-radius: 50%;
+  background-image: url(images/login.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#login:hover {
+  cursor: pointer;
+}
 #logo {
   display: flex;
   flex-direction: row;
